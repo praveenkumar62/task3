@@ -1,0 +1,158 @@
+body
+{
+ margin: 0;
+ padding: 0;
+}
+
+.container-fluid1
+{
+ background-image: url("pic1.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100%;
+ width: auto;
+}
+
+.lay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.over{
+    margin-top: 2%;
+    color: white;
+}
+
+.over h1{
+    font-weight: bold;
+    font-family: 'Concert One', cursive;
+    font-size: 4em;
+} 
+
+.over span
+{
+    color: #ffbf00;
+}
+
+.call p
+{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.call .btn-success
+{
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 0;
+    width: 50%;
+    margin-left: 26%; 
+}
+
+#disappear
+{
+    display: none;
+}
+
+.containered
+{
+    margin-top: 5%;
+}
+
+#submit
+{
+    height: 45px;
+    border: none;
+    background-color: #ff8000;
+    color: white;
+}
+
+#submit:hover
+{
+    color: white;
+    background-color: #ffbf00;
+    transition: 1s ease;
+}
+
+input[name="bill"],input[name="share"]
+{
+    height: 7%;
+}
+
+#rating
+{
+    height: 7%;
+}
+
+select
+{
+    text-align-last: center;
+}
+
+input[placeholder="Enter the bill amount"]
+{
+    text-align: center;
+}
+
+input[placeholder="Number of people for sharing"]
+{
+    text-align: center;
+}
+
+
+footer
+{
+    width: 100%;
+	background-color: #23415C;
+	padding: 2%  5% 5% 5%;
+	color: white;
+}
+
+.container-fluid1 .row
+{
+    margin: 0;
+}
+
+.containered .row
+{
+    margin: 0;
+}
+
+.call .row
+{
+    margin: 0;
+}
+
+footer .row
+{
+    margin: 0;
+}
+
+.fa
+{
+	padding: 15px;
+	font-size: 25px;
+	color: white;
+}
+    
+.fa:hover
+{
+    color: #D5D5D5;
+	text-decoration: none;
+}
+
+.h:hover
+{
+	color: #D5D5D5;
+	text-decoration: none;
+}
+
+.h
+{
+	color: white;
+}
+
